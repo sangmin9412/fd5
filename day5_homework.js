@@ -23,6 +23,10 @@ var people = [{
   age: 22,
   job: 'developer'
 }, {
+  name: 'Lee Ilmin',
+  age: 47,
+  job: 'developer'
+}, {
   name: 'IU',
   age: 27,
   job: 'singer'
