@@ -51,3 +51,6 @@ console.log('나이가50이상인사람들의이름: ', 나이가50이상인사�
 
 var 직업이developer인사람을나이순서대로정렬 = people.xxxxx().xxxxx();
 console.log('직업이developer인사람을나이순서대로정렬: ', 직업이developer인사람을나이순서대로정렬);
+
+var 직업이developer인사람을나이순서대로정렬하고직업은대문자 = people.xxxxx().xxxxx().xxxxx();
+console.log('직업이developer인사람을나이순서대로정렬하고직업은대문자: ', 직업이developer인사람을나이순서대로정렬하고직업은대문자);
