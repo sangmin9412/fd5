@@ -19,6 +19,10 @@ var people = [{
   age: 65,
   job: 'developer'
 }, {
+  name: 'Uncle Bob',
+  age: 22,
+  job: 'developer'
+}, {
   name: 'IU',
   age: 27,
   job: 'singer'
