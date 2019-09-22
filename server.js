@@ -1,9 +1,13 @@
-var http = require('http');
+const http = require('http');
+const fs = require('fs');
 
-http.createServer(function(req, res) {
+http.createServer((req, res) => {
     console.log('hi');
     res.writeHead(200, {'Content-Type':'text/plain; charset=utf-8'});
-    res.end('안녕하세요11111');
-}).listen(8080, function() {
+
+    const userAgent = req.headers['user-agent'];
+    fs.appendFile('log.txt', userAgent + '\n', () => {});
+    res.end(userAgent);
+}).listen(8080, () => {
     console.log('listening!!!');
 });
